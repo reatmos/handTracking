@@ -1,4 +1,4 @@
-Sign language recognition with Mediapipe and KNN algorithm
+# Sign language recognition with Mediapipe and KNN algorithm
 
 
 
@@ -8,10 +8,10 @@ https://github.com/user-attachments/assets/76c1c175-5b67-409f-87ab-1cf48a288d56
 
 ====================
 
-[How to Run]
+## How to Run
 - Run main.py and check in service.html
 
-(Optional)
+[Optional]
 - To run camera separately, uncomment the following code in `if view_img:` in handTracking.py, comment out `yield im0`, specify source in `if __name__ == '__main__':`, and execute
 
 ```
@@ -23,5 +23,5 @@ https://github.com/user-attachments/assets/76c1c175-5b67-409f-87ab-1cf48a288d56
 
 ====================
 
-[Notes]
+## Notes
 - [Original Code](https://developeralice.tistory.com/12)
